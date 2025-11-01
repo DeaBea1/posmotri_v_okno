@@ -110,8 +110,8 @@ ol {
 }
 
 .search-form__fieldset-title {
-  font-family: 'Fira Sans Condensed', sans-serif;
-  font-size: 18px;
+  font-family: inherit;
+  font-size: inherit;
   font-weight: 400;
   margin-bottom: 5px;
 }
@@ -160,6 +160,7 @@ ol {
 
 .search-form__label {
   display: flex;
+  align-items: center;
   width: fit-content;
   gap: 5px;
   cursor: pointer;
@@ -169,12 +170,12 @@ ol {
   appearance: none;
   width: 225px;
   border: none;
-  border-top: 1px solid #fff;
-  border-bottom: 1px solid #fff;
+  border-top: 1px solid currentColor;
+  border-bottom: 1px solid currentColor;
   padding: 2px 0;
-  color: rgba(255, 255, 255, 0.7);
-  font-family: 'Fira Sans Condensed', sans-serif;
-  font-size: 18px;
+  color: #fff;
+  font-family: inherit;
+  font-size: inherit;
   font-weight: 400;
   background-color: transparent;
 }
@@ -193,10 +194,10 @@ ol {
 
 .button {
   background-color: transparent;
-  border: 1px solid #fff;
-  font-family: 'Fira Sans Condensed', sans-serif;
+  border: 1px solid currentColor;
+  font-family: inherit;
   font-weight: 700;
-  font-size: 18px;
+  font-size: inherit;
   color: #fff;
   cursor: pointer;
   padding: 6px 0;
